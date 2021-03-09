@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prismarine-Test</title>
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
+    <style>
+      body.dark {
+        --bg-color: #000;
+        --bg-secondary-color: #131316;
+        --font-color: #f5f5f5;
+        --color-grey: #ccc;
+        --color-darkGrey: #777;
+      }
+      .code {
+        font-family: Consolas, "courier new";
+        color: crimson;
+        background-color: #010101;
+        padding: 2px;
+        font-size: 105%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <a class="brand" href="#">prismarine test server</a>
+          <div class="tabs">
+            <a class="active" href="#">Home</a>
+            <a href="#join">Join</a>
+            <a href="#commands">Commands</a>
+            <a href="https://github.com/dada513/prismarine-test-server"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </nav>
+      <div id="join">
+        <h1>play</h1>
+        <h2>using vanilla</h2>
+        log on to <code>prismarine-test.ml</code> using the 1.16.5 vanilla
+        client
+        <h2>in your bot</h2>
+        use <code>direct.prismarine-test.ml</code> with port 25514
+        <script src="https://gist.github.com/dada513/8ac1983a9841d5af9524a8b26d479498.js"></script>
+      </div>
+
+      <div id="commands">
+        <h1>commands</h1>
+        <h2>server</h2>
+        /register <code>password</code> <code>password</code> - registers an
+        account (because the server is cracked mode) <br />/login
+        <code>password</code> - logs you in
+        <h2>doogebot</h2>
+        Execute those in chat !tps - shows the server tps <br />!coords - shows
+        the doogebot's coordinates <br />
+        !kill - kills you <br />!bot - gives you the BOT rank <br />!human -
+        gives you the default rank
+      </div>
+    </div>
+    <script>
+      if (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      ) {
+        document.body.classList.add("dark");
+      }
+    </script>
+  </body>
+</html>
