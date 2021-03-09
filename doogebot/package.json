@@ -1,0 +1,11 @@
+{
+  "name": "doogebot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/dada513/prismarine-test-server",
+  "author": "dada513",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^3.2.0"
+  }
+}
