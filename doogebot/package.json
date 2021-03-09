@@ -6,6 +6,9 @@
   "author": "dada513",
   "license": "MIT",
   "dependencies": {
-    "mineflayer": "^3.2.0"
+    "chance": "^1.1.7",
+    "fs-extra": "^9.1.0",
+    "mineflayer": "^3.2.0",
+    "mineflayer-tps": "^1.0.1"
   }
 }
